@@ -26,3 +26,9 @@ Make a custom `UIImageView` subclass that displays an image in side a circle wit
 - Edit the file *CircularImageView.swift* to create a custom view that displays an image inside a circle with a colored circle.
 - As you make changes to the `CircularImageView`, look at the storyboard. You should see the image view in the storyboard update to reflect your changes.
 ![Finished `CircularImageView`](Screenshots/views-screenshot.png)
+
+## Models
+
+### Tasks
+- Check out the `models` branch
+- Edit the file *CatalogItem.swift* to model an item from the Swift catalog. An item has a title of type `String`, an image of type `UIImage`, an item description of type `String`, category of type `String`, and an order quantity of type `Int`.
