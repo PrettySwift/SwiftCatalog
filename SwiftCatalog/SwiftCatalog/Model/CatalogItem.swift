@@ -9,5 +9,9 @@
 import UIKit
 
 struct CatalogItem {
-    // TODO: Model the catalog item. We will use this model object to populate the `ItemViewController` with data.
+    let title: String
+    let image: UIImage
+    let itemDescription: String
+    let category: String
+    let orderQuantity: Int
 }
