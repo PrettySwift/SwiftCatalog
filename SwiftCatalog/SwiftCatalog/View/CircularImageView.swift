@@ -10,12 +10,6 @@ import UIKit
 
 @IBDesignable class CircularImageView: UIImageView {
 
-    /*
-    // Only override drawRect: if you perform custom drawing.
-    // An empty implementation adversely affects performance during animation.
-    override func drawRect(rect: CGRect) {
-        // Drawing code
-    }
-    */
+    // TODO: Change this file to make the image view circular and have a customizable border color
 
 }
