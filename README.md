@@ -15,3 +15,5 @@ In this section, you will create a view controller that shows details about a Sw
 
 ### Tasks
 - Check out the `view-controllers` branch
+- In *Main.storyboard*, edit the *Item View Controller Scene* to look like the screenshot below. You will not need to write any Swift code to complete this exercise.
+![Finished `ItemViewController`](Screenshots/view-controllers-screenshot.png)
