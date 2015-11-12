@@ -47,6 +47,7 @@
 		59532A0B1BF2D38000780759 /* SwiftCatalogUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftCatalogUITests.swift; sourceTree = "<group>"; };
 		59532A0D1BF2D38000780759 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		59532A201BF51A4100780759 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		59532A241BF54C6B00780759 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +78,7 @@
 		595329DF1BF2D37F00780759 = {
 			isa = PBXGroup;
 			children = (
+				59532A241BF54C6B00780759 /* README.md */,
 				595329EA1BF2D37F00780759 /* SwiftCatalog */,
 				595329FF1BF2D38000780759 /* SwiftCatalogTests */,
 				59532A0A1BF2D38000780759 /* SwiftCatalogUITests */,
@@ -508,6 +510,7 @@
 				59532A121BF2D38000780759 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		59532A131BF2D38000780759 /* Build configuration list for PBXNativeTarget "SwiftCatalogTests" */ = {
 			isa = XCConfigurationList;
@@ -516,6 +519,7 @@
 				59532A151BF2D38000780759 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		59532A161BF2D38000780759 /* Build configuration list for PBXNativeTarget "SwiftCatalogUITests" */ = {
 			isa = XCConfigurationList;
@@ -524,6 +528,7 @@
 				59532A181BF2D38000780759 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
