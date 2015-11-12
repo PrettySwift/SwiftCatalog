@@ -11,7 +11,7 @@ This repository has a branch for each step in the project. The `master` branch h
 # Project instructions
 
 ## View Controllers
-In this section, you will create a view controller that shows details about a Swift item that customers can order from the Swift Catalog.
+Create a view controller that shows details about a Swift item that customers can order from the Swift Catalog.
 
 ### Tasks
 - Check out the `view-controllers` branch
