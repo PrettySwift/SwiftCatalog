@@ -33,7 +33,7 @@ Create a view controller that shows details about a Swift item that customers ca
 - In *Main.storyboard*, edit the *Item View Controller Scene* to look like the screenshot below. You will not need to write any Swift code to complete this exercise.
 ![Finished `ItemViewController`](Screenshots/view-controllers-screenshot.png)
 
-## Views
+## [Views](http://www.prettyswift.co/lessons/views/)
 Make a custom `UIImageView` subclass that displays an image inside a circle with a colored border.
 
 ### Tasks
