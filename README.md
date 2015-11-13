@@ -65,7 +65,7 @@ Navigate between the catalog screen and the catalog item details screen. Learn h
 - Edit `CatalogTableViewController` and `ItemViewController` to pass currently selected `CatalogItem` from the `CatalogTableViewController` instance to the `ItemViewController` instance. Create IBOutlets from the storyboard to `ItemViewController`.
 ![Finished navigation](Screenshots/navigation-screenshot.gif)
 
-## Persistence
+## [Persistence](http://www.prettyswift.co/lessons/persistence/)
 React to changes in order quantity. Persist order quantities to disk so the app remembers quantities between app launches.
 
 ### Tasks
