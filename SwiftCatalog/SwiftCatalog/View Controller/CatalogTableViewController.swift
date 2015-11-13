@@ -20,9 +20,9 @@ class CatalogTableViewController: UITableViewController {
     
     // MARK: - Navigation
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
-        guard let destinationViewController = segue.destinationViewController as? ItemViewController else { return }
-        // TODO: Pass the selected CatalogItem to the destination controller
-        destinationViewController
+        guard let destinationViewController = segue.destinationViewController as? ItemViewController, indexPathOfSelectedRow = tableView.indexPathForSelectedRow else { return }
+        
+        destinationViewController.catalogItem = catalogItems[indexPathOfSelectedRow.row]
     }
 
     // MARK: - UITableViewDataSource
@@ -46,6 +46,6 @@ class CatalogTableViewController: UITableViewController {
     // MARK: - UITableViewDelegate
     
     override func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
-        // TODO: Perform the appropriate segue
+        performSegueWithIdentifier("CatalogDetailSegue", sender: tableView.cellForRowAtIndexPath(indexPath))
     }
 }

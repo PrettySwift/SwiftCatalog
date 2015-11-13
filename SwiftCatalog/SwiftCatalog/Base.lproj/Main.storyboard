@@ -150,6 +150,12 @@
                             <constraint firstItem="xtO-oG-2C8" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="rDv-hc-Xz6"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="categoryLabel" destination="j3K-yR-hWN" id="S46-3F-RQM"/>
+                        <outlet property="itemDescriptionLabel" destination="y1a-Tg-Yip" id="cuJ-zU-FeF"/>
+                        <outlet property="itemImageView" destination="1hw-bx-z1L" id="2i8-rq-s1w"/>
+                        <outlet property="titleLabel" destination="AVb-80-BAY" id="6hg-8S-Aon"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>

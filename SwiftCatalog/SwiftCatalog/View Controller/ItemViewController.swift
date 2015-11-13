@@ -9,7 +9,11 @@
 import UIKit
 
 class ItemViewController: UIViewController {
-    // TODO: Make IBOutlets from the storyboard for the title label, circular image view, category label, and item description label
+    @IBOutlet weak var titleLabel: UILabel!
+    @IBOutlet weak var itemImageView: CircularImageView!
+    @IBOutlet weak var categoryLabel: UILabel!
+    @IBOutlet weak var itemDescriptionLabel: UILabel!
+    
     
     var catalogItem: CatalogItem? {
         didSet {
@@ -23,7 +27,10 @@ class ItemViewController: UIViewController {
     }
 
     func updateCatalogItem() {
-        // TODO: Update the UI with information from the new CatalogItem
+        titleLabel?.text = catalogItem?.title
+        itemImageView?.image = catalogItem?.image
+        categoryLabel?.text = catalogItem?.category
+        itemDescriptionLabel?.text = catalogItem?.itemDescription
     }
 }
 
