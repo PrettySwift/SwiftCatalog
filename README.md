@@ -49,7 +49,7 @@ Create a model object to represent items in the Swift catalog.
 - Checkout the `models` branch
 - Edit the file *CatalogItem.swift* to model an item from the Swift catalog. An item has a title of type `String`, an image of type `UIImage`, an item description of type `String`, category of type `String`, and an order quantity of type `Int`. Think about which attributes should be mutable and which should be immutable.
 
-## Tables
+## [Tables](http://www.prettyswift.co/lessons/tables/)
 Create a table to show a list of all the items sold in the Swift Catalog.
 
 ### Tasks
