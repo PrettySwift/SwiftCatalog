@@ -57,3 +57,4 @@ React to changes in order quantity. Persist order quantities to disk so the app 
 - Edit `ItemViewController` to react to changes in order quantity. You will need to create IBOutlets for the order quantity label and stepper.
 - When the stepper's value changes, set the quantity on the catalog item to the stepper's new value
 - Edit `CatalogItem` to persist the new value of order quantity.
+![Finished persistence](Screenshots/persistence-screenshot.gif)
