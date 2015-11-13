@@ -25,7 +25,7 @@ Look at the `master` branch to see a solution for the completed project. When yo
 
 # Project instructions
 
-## View Controllers
+## [View Controllers](http://www.prettyswift.co/lessons/view-controllers/)
 Create a view controller that shows details about a Swift item that customers can order from the Swift Catalog.
 
 ### Tasks
