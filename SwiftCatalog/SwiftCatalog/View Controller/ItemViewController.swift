@@ -9,17 +9,21 @@
 import UIKit
 
 class ItemViewController: UIViewController {
+    // TODO: Make IBOutlets from the storyboard for the title label, circular image view, category label, and item description label
+    
+    var catalogItem: CatalogItem? {
+        didSet {
+            updateCatalogItem()
+        }
+    }
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        updateCatalogItem()
     }
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    func updateCatalogItem() {
+        // TODO: Update the UI with information from the new CatalogItem
     }
-
-
 }
 

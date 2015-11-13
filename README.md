@@ -40,3 +40,7 @@ Create a table to show a list of all the items sold in the Swift Catalog.
 - Check out the `tables` branch
 - Edit `CatalogTableViewController` to implement the appropriate `UITableViewDelegate` and `UITableViewDataSource` methods.
 ![Finished `CatalogTableViewController`](Screenshots/tables-screenshot.png)
+
+## Navigation
+- Check out the `navigation` branch
+- Edit `CatalogTableViewController` and `ItemViewController` to pass currently selected `CatalogItem` from the `CatalogTableViewController` instance to the `ItemViewController` instance. Create IBOutlets from the storyboard to `ItemViewController`.

@@ -17,6 +17,13 @@ class CatalogTableViewController: UITableViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
     }
+    
+    // MARK: - Navigation
+    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
+        guard let destinationViewController = segue.destinationViewController as? ItemViewController else { return }
+        // TODO: Pass the selected CatalogItem to the destination controller
+        destinationViewController
+    }
 
     // MARK: - UITableViewDataSource
 
@@ -34,5 +41,11 @@ class CatalogTableViewController: UITableViewController {
         cell.imageView?.image = catalogItems[indexPath.row].image
 
         return cell
+    }
+    
+    // MARK: - UITableViewDelegate
+    
+    override func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
+        // TODO: Perform the appropriate segue
     }
 }
