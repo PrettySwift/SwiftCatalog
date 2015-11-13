@@ -34,10 +34,10 @@ Create a view controller that shows details about a Swift item that customers ca
 ![Finished `ItemViewController`](Screenshots/view-controllers-screenshot.png)
 
 ## Views
-Make a custom `UIImageView` subclass that displays an image in side a circle with a colored border.
+Make a custom `UIImageView` subclass that displays an image inside a circle with a colored border.
 
 ### Tasks
-- Check out the `views` branch
+- Checkout the `views` branch
 - Edit the file *CircularImageView.swift* to create a custom view that displays an image inside a circle with a colored circle.
 - As you make changes to the `CircularImageView`, look at the storyboard. You should see the image view in the storyboard update to reflect your changes.
 ![Finished `CircularImageView`](Screenshots/views-screenshot.png)
