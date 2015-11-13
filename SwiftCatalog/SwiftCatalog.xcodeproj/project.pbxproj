@@ -16,6 +16,9 @@
 		59532A211BF51A4100780759 /* ItemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59532A201BF51A4100780759 /* ItemViewController.swift */; };
 		59532A231BF52C1000780759 /* CircularImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59532A221BF52C1000780759 /* CircularImageView.swift */; };
 		59F7F2971BF55B2A00B87D86 /* CatalogItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59F7F2961BF55B2A00B87D86 /* CatalogItem.swift */; };
+		59F7F2991BF566E000B87D86 /* CatalogTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59F7F2981BF566E000B87D86 /* CatalogTableViewController.swift */; };
+		59F7F29C1BF5686500B87D86 /* CatalogItems.plist in Resources */ = {isa = PBXBuildFile; fileRef = 59F7F29B1BF5686500B87D86 /* CatalogItems.plist */; };
+		59F7F29E1BF56F8B00B87D86 /* CatalogItemLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59F7F29D1BF56F8B00B87D86 /* CatalogItemLoader.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +55,9 @@
 		59532A221BF52C1000780759 /* CircularImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircularImageView.swift; sourceTree = "<group>"; };
 		59532A241BF54C6B00780759 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		59F7F2961BF55B2A00B87D86 /* CatalogItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CatalogItem.swift; sourceTree = "<group>"; };
+		59F7F2981BF566E000B87D86 /* CatalogTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CatalogTableViewController.swift; sourceTree = "<group>"; };
+		59F7F29B1BF5686500B87D86 /* CatalogItems.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = CatalogItems.plist; sourceTree = "<group>"; };
+		59F7F29D1BF56F8B00B87D86 /* CatalogItemLoader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CatalogItemLoader.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +116,7 @@
 				595329EF1BF2D37F00780759 /* Main.storyboard */,
 				59532A1D1BF51A4100780759 /* Model */,
 				59532A1E1BF51A4100780759 /* View */,
+				59F7F29A1BF5683300B87D86 /* Resources */,
 				59532A1F1BF51A4100780759 /* View Controller */,
 			);
 			path = SwiftCatalog;
@@ -137,6 +144,7 @@
 			isa = PBXGroup;
 			children = (
 				59F7F2961BF55B2A00B87D86 /* CatalogItem.swift */,
+				59F7F29D1BF56F8B00B87D86 /* CatalogItemLoader.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -152,9 +160,18 @@
 		59532A1F1BF51A4100780759 /* View Controller */ = {
 			isa = PBXGroup;
 			children = (
+				59F7F2981BF566E000B87D86 /* CatalogTableViewController.swift */,
 				59532A201BF51A4100780759 /* ItemViewController.swift */,
 			);
 			path = "View Controller";
+			sourceTree = "<group>";
+		};
+		59F7F29A1BF5683300B87D86 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				59F7F29B1BF5686500B87D86 /* CatalogItems.plist */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -262,6 +279,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				595329F61BF2D37F00780759 /* LaunchScreen.storyboard in Resources */,
+				59F7F29C1BF5686500B87D86 /* CatalogItems.plist in Resources */,
 				595329F31BF2D37F00780759 /* Assets.xcassets in Resources */,
 				595329F11BF2D37F00780759 /* Main.storyboard in Resources */,
 			);
@@ -288,8 +306,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				59F7F2991BF566E000B87D86 /* CatalogTableViewController.swift in Sources */,
 				59532A211BF51A4100780759 /* ItemViewController.swift in Sources */,
 				59532A231BF52C1000780759 /* CircularImageView.swift in Sources */,
+				59F7F29E1BF56F8B00B87D86 /* CatalogItemLoader.swift in Sources */,
 				59F7F2971BF55B2A00B87D86 /* CatalogItem.swift in Sources */,
 				595329EC1BF2D37F00780759 /* AppDelegate.swift in Sources */,
 			);

@@ -11,8 +11,8 @@ import UIKit
 struct CatalogItem {
     let title: String
     let image: UIImage
-    let itemDescription: String
     let category: String
+    let itemDescription: String
     var orderQuantity: Int = 0
 }
 

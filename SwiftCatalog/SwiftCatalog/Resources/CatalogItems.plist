@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>Title</key>
+		<string>Gulliver&apos;s Travels</string>
+		<key>Image</key>
+		<string>gulliver</string>
+		<key>Category</key>
+		<string>Books</string>
+		<key>Item Description</key>
+		<string>Jonathan Swift wrote Gulliver&apos;s Travels in 1726.</string>
+	</dict>
+	<dict>
+		<key>Title</key>
+		<string>Red</string>
+		<key>Image</key>
+		<string>red</string>
+		<key>Category</key>
+		<string>Music</string>
+		<key>Item Description</key>
+		<string>Red is Taylor Swift&apos;s fourth album. It was released October 22, 2012.</string>
+	</dict>
+	<dict>
+		<key>Title</key>
+		<string>Suzuki Swift</string>
+		<key>Image</key>
+		<string>suzuki</string>
+		<key>Category</key>
+		<string>cars</string>
+		<key>Item Description</key>
+		<string>The Suzuki Swift is a compact car.</string>
+	</dict>
+</array>
+</plist>
