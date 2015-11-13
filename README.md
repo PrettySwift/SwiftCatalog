@@ -15,6 +15,8 @@ You will need to clone this repository by following [these instructions](https:/
 
 This repository has a branch for each step in the project. Read [this tutorial](https://www.atlassian.com/git/tutorials/using-branches) for more information about branching in Git.
 
+If you get stuck, you can find a proposed solution to an exercise by moving to the next branch in the project. For example, if you get stuck in the `view-controllers` section, you can move to the `views` section to see a solution to the `view-controllers` problem. Each new problem branch contains the cumulative solution to all the previous problems.
+
 Look at the `master` branch to see a solution for the completed project. When you are finished, your project should look similar to these screenshots.
 
 ![Finished master view controller](Screenshots/master-screenshot.png)
