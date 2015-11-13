@@ -9,10 +9,19 @@
 import UIKit
 
 struct CatalogItem {
+    let uniqueID: String
     let title: String
     let image: UIImage
     let category: String
     let itemDescription: String
-    var orderQuantity: Int = 0
+    var orderQuantity: Int {
+        get {
+            return NSUserDefaults.standardUserDefaults().integerForKey(uniqueID) ?? 0
+        }
+        
+        set {
+            // TODO: Persist the `newValue` to the standard user defaults
+        }
+    }
 }
 

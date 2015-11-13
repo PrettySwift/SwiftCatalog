@@ -3,6 +3,8 @@
 <plist version="1.0">
 <array>
 	<dict>
+		<key>Unique ID</key>
+		<string>0</string>
 		<key>Title</key>
 		<string>Gulliver&apos;s Travels</string>
 		<key>Image</key>
@@ -13,6 +15,8 @@
 		<string>Jonathan Swift wrote Gulliver&apos;s Travels in 1726.</string>
 	</dict>
 	<dict>
+		<key>Unique ID</key>
+		<string>1</string>
 		<key>Title</key>
 		<string>Red</string>
 		<key>Image</key>
@@ -23,6 +27,8 @@
 		<string>Red is Taylor Swift&apos;s fourth album. It was released October 22, 2012.</string>
 	</dict>
 	<dict>
+		<key>Unique ID</key>
+		<string>2</string>
 		<key>Title</key>
 		<string>Suzuki Swift</string>
 		<key>Image</key>

@@ -48,3 +48,12 @@ Navigate between the catalog screen and the catalog item details screen. Learn h
 - Checkout the `navigation` branch
 - Edit `CatalogTableViewController` and `ItemViewController` to pass currently selected `CatalogItem` from the `CatalogTableViewController` instance to the `ItemViewController` instance. Create IBOutlets from the storyboard to `ItemViewController`.
 ![Finished navigation](Screenshots/navigation-screenshot.gif)
+
+## Persistence
+React to changes in order quantity. Persist order quantities to disk so the app remembers quantities between app launches.
+
+### Tasks
+- Checkout the `persistence` branch
+- Edit `ItemViewController` to react to changes in order quantity. You will need to create IBOutlets for the order quantity label and stepper.
+- When the stepper's value changes, set the quantity on the catalog item to the stepper's new value
+- Edit `CatalogItem` to persist the new value of order quantity.

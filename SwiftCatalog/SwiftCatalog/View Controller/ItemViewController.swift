@@ -14,7 +14,6 @@ class ItemViewController: UIViewController {
     @IBOutlet weak var categoryLabel: UILabel!
     @IBOutlet weak var itemDescriptionLabel: UILabel!
     
-    
     var catalogItem: CatalogItem? {
         didSet {
             updateCatalogItem()
@@ -31,6 +30,12 @@ class ItemViewController: UIViewController {
         itemImageView?.image = catalogItem?.image
         categoryLabel?.text = catalogItem?.category
         itemDescriptionLabel?.text = catalogItem?.itemDescription
+        // TODO: Update the stepper's `value` and the order quantity label's `text` with the catalog item's `orderQuantity`
+    }
+    
+    // MARK: User Interaction
+    @IBAction func handleOrderQuantityChanged(sender: UIStepper) {
+        // TODO: Update the catalog item with the new quantity
     }
 }
 

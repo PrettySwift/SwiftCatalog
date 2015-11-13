@@ -116,6 +116,9 @@
                                             <stepper opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" maximumValue="100" translatesAutoresizingMaskIntoConstraints="NO" id="KwR-YL-iJw">
                                                 <rect key="frame" x="412" y="0.0" width="94" height="29"/>
                                                 <animations/>
+                                                <connections>
+                                                    <action selector="handleOrderQuantityChanged:" destination="BYZ-38-t0r" eventType="valueChanged" id="66C-vR-zw8"/>
+                                                </connections>
                                             </stepper>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FlB-fm-wm6" userLabel="Order Quantity Label">
                                                 <rect key="frame" x="526" y="0.0" width="10" height="29"/>

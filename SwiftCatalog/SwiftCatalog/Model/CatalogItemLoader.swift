@@ -9,6 +9,7 @@
 import UIKit
 
 class CatalogItemLoader {
+    static let UniqueIDKey = "Unique ID"
     static let TitleKey = "Title"
     static let ImageKey = "Image"
     static let CategoryKey = "Category"
@@ -19,8 +20,8 @@ class CatalogItemLoader {
     lazy var catalogItems: [CatalogItem] = {
         guard let items = NSArray(contentsOfURL: self.fileURL) as? Array<[String: String]> else { return [] }
         return items.flatMap {
-            guard let title = $0[TitleKey], imageName = $0[ImageKey], image = UIImage(named: imageName), category = $0[CategoryKey], itemDescription = $0[ItemDescriptionKey] else { return nil }
-            return CatalogItem(title: title, image: image, category: category, itemDescription: itemDescription, orderQuantity: 0)
+            guard let uniqueID = $0[UniqueIDKey], title = $0[TitleKey], imageName = $0[ImageKey], image = UIImage(named: imageName), category = $0[CategoryKey], itemDescription = $0[ItemDescriptionKey] else { return nil }
+            return CatalogItem(uniqueID: uniqueID, title: title, image: image, category: category, itemDescription: itemDescription)
         }
     }()
     
