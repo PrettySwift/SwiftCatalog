@@ -42,7 +42,7 @@ Make a custom `UIImageView` subclass that displays an image inside a circle with
 - As you make changes to the `CircularImageView`, look at the storyboard. You should see the image view in the storyboard update to reflect your changes.
 ![Finished `CircularImageView`](Screenshots/views-screenshot.png)
 
-## Models
+## [Models](http://www.prettyswift.co/lessons/models/)
 Create a model object to represent items in the Swift catalog.
 
 ### Tasks
