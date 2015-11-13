@@ -57,7 +57,7 @@ Create a table to show a list of all the items sold in the Swift Catalog.
 - Edit `CatalogTableViewController` to implement the appropriate `UITableViewDelegate` and `UITableViewDataSource` methods.
 ![Finished `CatalogTableViewController`](Screenshots/tables-screenshot.png)
 
-## Navigation
+## [Navigation](http://www.prettyswift.co/lessons/navigation/)
 Navigate between the catalog screen and the catalog item details screen. Learn how to pass information between View Controllers.
 
 ### Tasks
