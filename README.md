@@ -44,3 +44,4 @@ Create a table to show a list of all the items sold in the Swift Catalog.
 ## Navigation
 - Check out the `navigation` branch
 - Edit `CatalogTableViewController` and `ItemViewController` to pass currently selected `CatalogItem` from the `CatalogTableViewController` instance to the `ItemViewController` instance. Create IBOutlets from the storyboard to `ItemViewController`.
+![Finished navigation](Screenshots/navigation-screenshot.gif)
