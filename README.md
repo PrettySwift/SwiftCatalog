@@ -53,6 +53,6 @@ Create a model object to represent items in the Swift catalog.
 Create a table to show a list of all the items sold in the Swift Catalog.
 
 ### Tasks
-- Check out the `tables` branch
+- Checkout the `tables` branch
 - Edit `CatalogTableViewController` to implement the appropriate `UITableViewDelegate` and `UITableViewDataSource` methods.
 ![Finished `CatalogTableViewController`](Screenshots/tables-screenshot.png)
