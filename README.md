@@ -31,4 +31,4 @@ Make a custom `UIImageView` subclass that displays an image in side a circle wit
 
 ### Tasks
 - Check out the `models` branch
-- Edit the file *CatalogItem.swift* to model an item from the Swift catalog. An item has a title of type `String`, an image of type `UIImage`, an item description of type `String`, category of type `String`, and an order quantity of type `Int`.
+- Edit the file *CatalogItem.swift* to model an item from the Swift catalog. An item has a title of type `String`, an image of type `UIImage`, an item description of type `String`, category of type `String`, and an order quantity of type `Int`. Think about which attributes should be mutable and which should be immutable.
