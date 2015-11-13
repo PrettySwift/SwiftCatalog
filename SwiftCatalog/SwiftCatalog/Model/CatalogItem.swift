@@ -13,5 +13,6 @@ struct CatalogItem {
     let image: UIImage
     let itemDescription: String
     let category: String
-    let orderQuantity: Int
+    var orderQuantity: Int = 0
 }
+
