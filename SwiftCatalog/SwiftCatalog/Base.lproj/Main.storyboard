@@ -157,6 +157,8 @@
                         <outlet property="categoryLabel" destination="j3K-yR-hWN" id="S46-3F-RQM"/>
                         <outlet property="itemDescriptionLabel" destination="y1a-Tg-Yip" id="cuJ-zU-FeF"/>
                         <outlet property="itemImageView" destination="1hw-bx-z1L" id="2i8-rq-s1w"/>
+                        <outlet property="orderQuantityLabel" destination="FlB-fm-wm6" id="e04-eP-USN"/>
+                        <outlet property="orderQuantityStepper" destination="KwR-YL-iJw" id="x97-T9-xWF"/>
                         <outlet property="titleLabel" destination="AVb-80-BAY" id="6hg-8S-Aon"/>
                     </connections>
                 </viewController>

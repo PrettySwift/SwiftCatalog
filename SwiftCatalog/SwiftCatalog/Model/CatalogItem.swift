@@ -20,7 +20,7 @@ struct CatalogItem {
         }
         
         set {
-            // TODO: Persist the `newValue` to the standard user defaults
+            NSUserDefaults.standardUserDefaults().setInteger(newValue, forKey: uniqueID)
         }
     }
 }
