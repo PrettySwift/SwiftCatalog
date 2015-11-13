@@ -25,14 +25,13 @@ class CatalogTableViewController: UITableViewController {
     }
 
     override func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        // TODO: Return count of items
-        return 0
+        return catalogItems.count
     }
 
     override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCellWithIdentifier("CatalogItemCellReuseIdentifier", forIndexPath: indexPath)
-
-        // TODO: Configure cell
+        cell.textLabel?.text = catalogItems[indexPath.row].title ?? ""
+        cell.imageView?.image = catalogItems[indexPath.row].image
 
         return cell
     }
